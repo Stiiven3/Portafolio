@@ -1,0 +1,60 @@
+
+
+div{
+    width: 80%;
+    background-color: rgba(28, 27, 23, 0.5) ;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*We can control all is under of element div*/
+body{
+    background-image: url(Img/fondo-pared-ladrillo-negro_125540-1607.jpg);
+    text-align: left;
+    color: azure;
+    
+}
+
+h2,p{
+    margin-left: 11%;
+    margin-top: 10px;
+}
+
+/*Style of the text*/
+h2{
+  cursor: pointer; 
+
+}
+
+h1,h3{
+   font-family: Verdana;
+   cursor:pointer;
+}
+
+.buger,.pizza{
+    text-align: left;
+    width: 16%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+    text-align: right;
+    width: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+/*a line  the article what containe element p*/
+.Item p{
+    display:inline-block;
+}
+
+/* Efect imagen*/
+img{
+  float: right;
+  margin-right: 10%;
+}
+/*  */
+img:hover{
+    transform: scale(1.08);
+    cursor:pointer;
+
+}
+
