@@ -337,14 +337,14 @@ footer .T{
     grid-row: 1;
 }
 footer .O{
-
+    grid-column: 1;
     grid-row: 2;
 }
 
 .Logo-footer{
     grid-column: 2;
-    grid-row: 2;
-    width: 250px;
+    grid-row: 1;
+    width: 150px;
     display: inline-block;
     justify-content: center;
     margin: 10px auto;
