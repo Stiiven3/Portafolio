@@ -165,9 +165,10 @@ a:hover{
 
     text-align: center;
 
-    margin-top: 10px;
-
     
+    margin: 20px 0px 20px 0px;
+
+
 }
 
 .control-target{
@@ -196,6 +197,13 @@ a:hover{
     margin-bottom: 20px;
 }
 
+.Trio{
+
+    margin:10px 0px 10px 0px   ;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 .target{
     display: flex;
     flex-direction: column;
@@ -214,6 +222,11 @@ a:hover{
     text-decoration:none;
     color: #2e04e9;
     font-size: 1em;
+}
+
+.links:hover{
+
+    background: #fff;
 }
 
 .target:hover{
@@ -244,6 +257,53 @@ a:hover{
 }
 
 
+/*Historia*/
+
+.history{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: justify;
+    box-shadow: 5px 5px rgb(0, 0, 0,0.15);
+    
+}
+
+.Mugi{
+    
+    width:80% ;
+    grid-column: 1;
+    display: inline-block;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.Mugitext{
+    grid-column: 2;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.sec-histo{
+
+ margin: 10px auto;
+ padding: 20px;
+ 
+    background-color: rgb(240, 248, 248);
+}
+
+.sec-histo-control{
+
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 
