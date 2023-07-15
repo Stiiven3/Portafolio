@@ -10,22 +10,26 @@
 <body>
     <header class="Header">
 
-        <div class="Box-menu">
+        <div class="Box-menu" >
 
             <div class="nav-logo">
 
                 <img src="/Tribute page/Imagenes/Logo.png" alt="">
             </div>
+           
 
             <nav class="navegacion">
+
+                
                 
                 <input type="checkbox" id="check">
+               
 
 
                 <ul class="control-lista">
-                    <li class="Home"> <a href="#home"><i class="fa-solid fa-house"></i>Home</a> </li>
-                    <li class="About"><a href="#about"><i class="fa-solid fa-person"></i>About</a> </li>
-                    <li class="Footer"><a href="#footer"><i class="fa-solid fa-shoe-prints"></i>Footer</a> </li>
+                    <li class="Home"> <a href="#home" target="_blank"><i class="fa-solid fa-house"></i>Home</a> </li>
+                    <li class="About"><a href="#about" target="_blank"><i class="fa-solid fa-person"></i>About</a> </li>
+                    <li class="Footer"><a href="#footer" target="_blank"><i class="fa-solid fa-shoe-prints"></i>Footer</a> </li>
                 </ul>
 
                 
@@ -59,7 +63,7 @@
                                 Shanks, un pirata que le salvo la vida, para convertirse en el rey de los piratas.
                             </p>
 
-                            <button class="btn">Mas información</button>
+                            <a href="https://onepiece.fandom.com/es/wiki/One_Piece_(anime)" class="btn">  Mas información</a>
                         </div>
                 </div>
             </div>
@@ -126,6 +130,7 @@
         </section>
     </main>
 
+
     <footer id="footer">
         <P class="crear">Creador de la web</P>
         <p class="crear">Steven Orozco</p>
@@ -133,6 +138,17 @@
         <p class="T">Tribute Page</p>
         <p class="O">One piece</p>
     </footer>
+
+    <script>
+        const nav = document.getElementById('navegacion');
+        window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+        nav.classList.add('nav__black');
+        } else {
+         nav.classList.remove('nav__black');
+        }
+       });
+    </script>
 </body>
 
 </html>
