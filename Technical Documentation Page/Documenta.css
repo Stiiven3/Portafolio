@@ -1,0 +1,71 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.Main{
+
+    background-color:rgb(236, 227, 214) ;
+    width: 100%;
+    padding: 20px;
+}
+
+.Cuerpo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+
+
+   
+   
+.sec-introduction{
+    
+    width: 100%;
+    margin: 20px 0px;
+   
+}
+h2{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.Caja-Menu-left{
+
+background-color: rgb(236, 232, 227);
+width: 30%;
+height: 100vh;
+overflow: auto;
+
+}
+
+.separador{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.separador-body{
+    
+    border-bottom: 1px solid #888989;
+    margin: 15px 0;
+    width: 100%;
+    
+}
+
+.separador{
+
+margin-bottom: 40px;
+
+}
+
+.elemento{
+
+    text-align: center;
+    padding: 20px;
+  
+}
