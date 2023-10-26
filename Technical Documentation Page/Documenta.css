@@ -6,34 +6,49 @@
 
 body{
     background-color: #1b1b1b;
-    width: 100%;
-   
+    width: 100%; 
 }
 
 
 h1{
-   
+    grid-column: 2;
     text-align: left;
-    font-weight: 500;
-    font-size: 35px;
+    font-weight: 300;
+    font-size: 14px;
+    grid-row: 0;
+    justify-self: end;
 }
+
 /*
 .Extra{
     width: 100%;
     background-color: #f8f6f6;
     padding: 20px;
     border-bottom:5px solid #060606;
-
 }
 */
+
 .Main{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 5fr 5fr;
     background-color:#1b1b1b;
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     color: #fff;
     border-bottom: 2px solid #fff;
+  
+}
+
+.ImagenP{
+    
+    grid-row: 1;
+    grid-column: 2;
+    margin-bottom: 10px;
+    margin-right: 65px;
+    justify-self: end;
+    height: auto;
+    width: 40px;
+    
 }
 
 .Cuerpo{
@@ -42,31 +57,41 @@ h1{
     justify-content: space-between;
     color: #fff;
     font-family: sans-serif;
-   
 }
 
-
-   
-   
 .sec-introduction{
-    
     width: 100%;
     margin: 20px 0px;
-   
+    min-height: 100%;  
 }
 h2{
     text-align: center;
     margin-left: 10px;
     font-size: 2rem;
+   
 }
 
 .Caja-Menu-left{
 
 background-color: #1b1b1b;
-width: 50%;
-height: 100vh;
-overflow: scroll;
+width: calc(50% - Xpx);
+height: 100%;
+border:3px solid #fff;
 
+}
+
+#Icono{
+    
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.checkbt{
+    cursor: pointer;
+    display: none;
 }
 
 .separador{
@@ -79,7 +104,7 @@ overflow: scroll;
 
 .separador{
 
-margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -92,6 +117,10 @@ margin-bottom: 40px;
   
 }
 
+li{
+    list-style: none;
+}
+
 a{
     text-decoration: none;
     border-style: none;
@@ -99,7 +128,22 @@ a{
     font-size: 14px;
 }
 
+.parrafo{
 
+    width: 100%;
+    text-align: start;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 30px;
+  
+}
+
+footer{
+    background-color: #fff;
+    height: 30vh;
+    background-color: #1b1b1b;
+    border:3px solid #fff;
+}
 
 body::-webkit-scrollbar {
     width: 16px;               /* width of the entire scrollbar */
@@ -114,7 +158,57 @@ body::-webkit-scrollbar-track {
     border-radius: 16px;       /* roundness of the scroll thumb */
     border: 3px solid #1b1b1b;  /* creates padding around scroll thumb */
   }
+  .separador-body{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+  }
 
- 
+
+  /* Media querys viewpor volteado moviles*/
+
+ @media screen and (max-height:740px) {
+    
+    .parrafo{
+
+        width: 90%;
+        text-align: start;
+        margin: 20px;
+        font-size: 14px;
+        line-height: 25px; 
+    }
+
+    
+ } 
+ @media screen and (max-width:912px) {
+    
+    .Main {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+ } 
+
+
+ @media (max-width:912px) {
+    
+    .checkbt{
+        display: block;
+    }
+
+        .Lista{
+            position: fixed;
+            height: 60vh;   
+            background-color: #1b1b1b;
+            transition: all 0.3s;
+            left:100%;
+            overflow:scroll;
+           
+            
+        } 
+
+        #Icono:checked ~ .Lista{
+            left:0;
+        }
+    
+}
  
  
