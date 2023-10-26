@@ -4,20 +4,39 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1b1b1b;
+    width: 100%;
+   
+}
+
 h1{
-    text-align: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.Extra{
+    width: 100%;
+    background-color: #f8f6f6;
+    padding: 20px;
+    border-bottom:5px solid #060606;
+
 }
 .Main{
 
-    background-color:rgb(236, 227, 214) ;
+    background-color:#1b1b1b;
     width: 100%;
     padding: 20px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .Cuerpo{
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    color: #fff;
+    font-family: sans-serif;
    
 }
 
@@ -33,29 +52,25 @@ h1{
 h2{
     text-align: center;
     margin-left: 10px;
+    font-size: 2rem;
 }
 
 .Caja-Menu-left{
 
-background-color: rgb(236, 232, 227);
+background-color: #1b1b1b;
 width: 30%;
-height: 100vh;
-overflow: auto;
+height: 100%;
+overflow: scroll;
 
 }
 
 .separador{
+    width: 100%;
     border-bottom: 1px solid #888989;
     margin: 2px 0;
 }
 
-.separador-body{
-    
-    border-bottom: 1px solid #888989;
-    margin: 15px 0;
-    width: 100%;
-    
-}
+
 
 .separador{
 
@@ -65,7 +80,50 @@ margin-bottom: 40px;
 
 .elemento{
 
+    color: #fff;
     text-align: center;
     padding: 20px;
+    
   
 }
+
+a{
+    text-decoration: none;
+    border-style: none;
+    color: #fff;
+    font-size: smaller;
+}
+
+a:active{
+
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+body::-webkit-scrollbar-track {
+    background: #1b1b1b;        /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1b1b1b;  /* creates padding around scroll thumb */
+  }
+
+  .Caja-Menu-left::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+.Caja-Menu-left::-webkit-scrollbar-track {
+    background: #1b1b1b;        /* color of the tracking area */
+  }
+
+  .Caja-Menu-left::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1b1b1b;  /* creates padding around scroll thumb */
+  }
+  
