@@ -10,11 +10,14 @@ body{
    
 }
 
+
 h1{
+   
     text-align: left;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 35px;
 }
+/*
 .Extra{
     width: 100%;
     background-color: #f8f6f6;
@@ -22,8 +25,10 @@ h1{
     border-bottom:5px solid #060606;
 
 }
+*/
 .Main{
-
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     background-color:#1b1b1b;
     width: 100%;
     padding: 20px;
@@ -58,8 +63,8 @@ h2{
 .Caja-Menu-left{
 
 background-color: #1b1b1b;
-width: 30%;
-height: 100%;
+width: 50%;
+height: 100vh;
 overflow: scroll;
 
 }
@@ -91,16 +96,13 @@ a{
     text-decoration: none;
     border-style: none;
     color: #fff;
-    font-size: smaller;
+    font-size: 14px;
 }
 
-a:active{
 
-    color: #fff;
-}
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 16px;               /* width of the entire scrollbar */
   }
 
 body::-webkit-scrollbar-track {
@@ -109,21 +111,10 @@ body::-webkit-scrollbar-track {
 
   body::-webkit-scrollbar-thumb {
     background-color: #fff;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
+    border-radius: 16px;       /* roundness of the scroll thumb */
     border: 3px solid #1b1b1b;  /* creates padding around scroll thumb */
   }
 
-  .Caja-Menu-left::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-
-.Caja-Menu-left::-webkit-scrollbar-track {
-    background: #1b1b1b;        /* color of the tracking area */
-  }
-
-  .Caja-Menu-left::-webkit-scrollbar-thumb {
-    background-color: #fff;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #1b1b1b;  /* creates padding around scroll thumb */
-  }
-  
+ 
+ 
+ 
