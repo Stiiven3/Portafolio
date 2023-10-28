@@ -27,17 +27,20 @@ h1{
     border-bottom:5px solid #060606;
 }
 */
-
+/*MENUS*/
 .Menu-Principal{
    display: flex;
    justify-content: end;
+   font-family: sans-serif;
+   
    width: 100%;
   
 }
 .desordenado{
     display: flex;
     align-items: center;
-   
+    margin: 0 45px 0 0;
+    gap: 13px;
     width:100px ;
 }
  
@@ -70,6 +73,33 @@ h1{
     
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    border-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.Caja-Menu-left{
+
+    background-color: #1b1b1b;
+    width: 30%;
+    height: 130vh;
+    overflow: scroll;
+}
+
+.separador{
+    width: 100%;
+    border-bottom: 1px solid #888989;
+    margin-bottom: 40px;
+
+}
+
+
+/*CUERPO*/
 .Cuerpo{
     display: flex;
    gap: 100px;
@@ -90,47 +120,12 @@ h2{
    
 }
 
-.Caja-Menu-left{
-
-background-color: #1b1b1b;
-width: 30%;
-height: 130vh;
-overflow: scroll;
-}
-
-
-.separador{
-    width: 100%;
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
-}
-
-
-
-.separador{
-
-    margin-bottom: 40px;
-
-}
-
 .elemento{
 
     color: #fff;
     text-align: center;
     padding: 20px;
-    
-  
-}
 
-li{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    border-style: none;
-    color: #fff;
-    font-size: 14px;
 }
 
 .parrafo{
@@ -144,6 +139,10 @@ a{
 }
 
 /*FOOTER*/
+
+
+
+
 .div-footer-grid{
     width: 100%;
     background-color: #4e4e4e;
@@ -156,22 +155,38 @@ a{
 .div-footer-grid{
 
     display: grid;
-    grid-template-columns: 5fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .div-icon-col-logo{
+    
     grid-column: 1;
+    margin: 0 30px;
+   
+}
 
+.div-columna1{
+    color: #fff;
+    grid-column:2;
+   justify-self: end;
 }
 
 .pvisitanos{
     color: #fff;
     font-family: sans-serif;
-    margin: 25px 12px;
+    
+   
 }
+.pmision{
+    text-align: center;
+}
+
 .fa-brands{   
-    font-size: 20px;
-    margin: 20px 12px;
+    font-size: 30px;
+    margin: 20px 14px;
 }
+
+
+
 
 /*AGREGADOR PARA EL SCROLL*/
 body::-webkit-scrollbar {
@@ -201,10 +216,6 @@ body::-webkit-scrollbar-track {
 
 
   /* Media querys viewpor volteado moviles*/
-
-
-
-
 
  @media (max-width:912px) {
 
