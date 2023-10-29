@@ -92,13 +92,16 @@ footer{
     padding: 10px;
     border-bottom: 2px solid rgba(255, 238, 0, 0.829);
    
-   
+    position: absolute;
+    position: relative;
+    bottom:-500px ;
+}
     
 
  
     
    
-}
+
 
 
 .line p{
@@ -127,7 +130,7 @@ footer .number{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}   
 .number{
     width: 100%;
     margin-left: auto;
