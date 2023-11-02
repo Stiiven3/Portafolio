@@ -98,11 +98,6 @@ footer{
 }
     
 
- 
-    
-   
-
-
 
 .line p{
 
@@ -114,14 +109,10 @@ footer{
 
 
 .number p{
-
     
     display:inline-block;
     text-align: justify;
     
-  
-     
-
 }
 
 
@@ -137,11 +128,6 @@ footer .number{
     margin-right: auto;
     padding: 10px auto;
 }
-
-
-
-
-
 
 
 h1::before{
