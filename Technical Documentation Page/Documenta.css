@@ -73,11 +73,7 @@ h1{
     color: #fff;
 }
 
-.encabezado2{
-    width: 100%;
-    background-color:#fff;
 
-}
 
 .ImagenP{
     
@@ -117,9 +113,55 @@ a{
 
 }
 
-/*Menu blanco*/
+/*CAMBIO*/
+.encabezado2{
+    display: flex;
+    width: 100%;
+    background-color:#fff;
 
+    justify-content: flex-end;
 
+}
+.switch{
+    
+    background: #343D5B;
+    border-radius: 1000px;
+    border:none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline:none;
+    &::after{
+
+        content: "";
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        background-color: #F1F1F1;
+        top:0;
+        right: 0;
+        left:unset;
+        border-radius:100px;
+        transition:.3s ease all ;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+    }
+    span{
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: #fff;
+
+    }
+}
+
+.fa-sun,.fa-moon{
+    
+    font-size: 40px;
+}
 
 /*CUERPO*/
 .Cuerpo{
