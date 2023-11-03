@@ -5,28 +5,35 @@
 }
 
 body{
-    background-color: #1b1b1b;
+    
     width: 100%;
     height: 100vh; 
+    transition: .3s ease all;
+
+    &.dark{
+        background-color: #1b1b1b;
+
+    }
 }
 
 h1{
     
+    color: #000;
     text-align: center;
     font-weight: 300;
     font-size: 2em;
     grid-row: 0;
     justify-self: end;
 }
-
-/*
-.Extra{
-    width: 100%;
-    background-color: #f8f6f6;
-    padding: 20px;
-    border-bottom:5px solid #060606;
+body.dark h1{
+   
+    color: #fff;
+        
 }
-*/
+
+
+
+
 /*MENUS*/
 .Menu-Principal{
    display: flex;
@@ -67,10 +74,12 @@ h1{
 .Main{
     display: grid;
     grid-template-columns: 5fr 5fr;
-    background-color:#1b1b1b;
+    
     width: 100%;
     padding: 5px;
     color: #fff;
+
+  
 }
 
 
@@ -95,16 +104,37 @@ li{
 a{
     text-decoration: none;
     border-style: none;
-    color: #fff;
+    color: #000;
+   
     font-size: 20px;
+    transition: .3s ease all;
+
+   
+}
+
+body.dark a{
+   
+    color: #fff;
+        
 }
 .Caja-Menu-left{
 
-    background-color: #1b1b1b;
+    background-color: #fff;
     width: 30%;
     height: 130vh;
     overflow: scroll;
+    transition: .3s ease all;
+
+   
+  
 }
+
+body.dark .Caja-Menu-left{
+   
+    background-color: #1b1b1b;
+        
+}
+
 
 .separador{
     width: 100%;
@@ -117,12 +147,22 @@ a{
 .encabezado2{
     display: flex;
     width: 100%;
-    background-color:#fff;
-
-    justify-content: flex-end;
+    background-color:#3f3f3f;
+    justify-content:end;
+    transition: .3s ease all;
 
 }
+body.dark .encabezado2{
+   
+    background-color: #3f3f3f;
+        
+}
+
+/*CAMBIO*/
+
+
 .switch{
+    margin: 10px;
     
     background: #343D5B;
     border-radius: 1000px;
@@ -135,8 +175,8 @@ a{
 
         content: "";
         display: block;
-        width: 40px;
-        height: 40px;
+        width:35px;
+        height: 35px;
         position: absolute;
         background-color: #F1F1F1;
         top:0;
@@ -146,6 +186,19 @@ a{
         transition:.3s ease all ;
         box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
     }
+    &.active{
+        background:orange ;
+        color: #000;
+        &::after{
+            
+           left: 0;
+           right: unset;
+            
+            
+        }
+       
+    }
+   
     span{
 
         width: 30px;
@@ -160,7 +213,7 @@ a{
 
 .fa-sun,.fa-moon{
     
-    font-size: 40px;
+    font-size: 35px;
 }
 
 /*CUERPO*/
@@ -173,8 +226,11 @@ a{
 }
 
 .sec-introduction{
+    
     width: 60%;
     margin: 20px 0px;
+
+   
      
 }
 h2{
@@ -186,20 +242,35 @@ h2{
 
 .elemento{
 
-    color: #fff;
+    
     text-align: center;
     padding: 20px;
 
 }
 
-.parrafo{
+.fa-bars{
+    color: #000;
+}
+body.dark .fa-bars{
+    color: #fff;
+    
+}
 
+
+.parrafo{
+    color: #000;
     width: 95%;
     text-align: start;
     margin: 20px;
     font-size: 25px;
     line-height: 59px;
   
+}
+
+body.dark .parrafo{
+   
+    color: #fff;
+        
 }
 
 #imagenC{
