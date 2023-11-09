@@ -283,6 +283,15 @@ body.dark .parrafo{
     margin-top: 35px;
 }
 
+
+.Hola{
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
 /*FOOTER*/
 
 .div-footer-grid{
