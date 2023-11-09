@@ -434,6 +434,10 @@ body::-webkit-scrollbar-track {
             
         }
 
+        img{
+            width: 200px;
+        }
+
         
     
 }
@@ -473,6 +477,7 @@ body::-webkit-scrollbar-track {
     
 
 }
+
 
 
  
