@@ -31,9 +31,6 @@ body.dark h1{
         
 }
 
-
-
-
 /*MENUS*/
 .Menu-Principal{
    display: flex;
@@ -94,7 +91,13 @@ body.dark h1{
    
     height: auto;
     width: 90px;
+    cursor: pointer;
     
+}
+
+.ImagenP:hover{
+
+    transform: rotate(45deg);
 }
 
 li{
@@ -349,19 +352,21 @@ h3{
 }
 
 .Titulo-footer{
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
     color: #fff;
     font-family: sans-serif;
     
 }
 .Pmision{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     line-height: 45px;
     margin-top: 20px;
     margin: 50px 14px 0;
+    
 }
+
 .Hmision{
     
     text-align: center;
@@ -372,7 +377,7 @@ h3{
 }   
 
 .fa-brands{   
-    font-size: 35px;
+    font-size: 25px;
     margin: 50px 50px 0;
     
 }
@@ -446,6 +451,8 @@ body::-webkit-scrollbar-track {
             width: 90px;
             
         }
+
+       
 
         img{
             width: 200px;
