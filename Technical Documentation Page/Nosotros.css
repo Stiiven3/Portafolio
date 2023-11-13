@@ -26,3 +26,31 @@
     
     justify-self: center;
 }
+
+@media (max-width:912px) {
+
+    .sec-nosotros{
+        text-align: left;
+        grid-column: 1;
+        grid-row: 2;
+    } 
+
+    
+    
+
+}
+@media (max-width:1025px) {
+
+  
+
+    .div-footer-grid{
+       
+        position: absolute;
+        bottom: -700px;
+        position: relative;
+     
+    }
+    
+    
+
+}
