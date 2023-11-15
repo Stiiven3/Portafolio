@@ -86,13 +86,17 @@ body.dark h1{
     grid-row: 1;
     grid-column: 1;
    margin: 10px 30px 10px 30px;
-    
     justify-self: flex-start;
-   
     height: auto;
-    width: 90px;
     cursor: pointer;
+    width: 10%;
+
     
+}
+
+.imgc{
+
+    width: 80px;
 }
 
 .ImagenP:hover{
@@ -107,12 +111,18 @@ li{
 a{
     text-decoration: none;
     border-style: none;
-    color: #000;
+    color: #070b0c;
    
     font-size: 20px;
     transition: .3s ease all;
 
    
+}
+
+.elemento:hover{
+
+    background-color: #8939b1;
+    color: #fff;
 }
 
 body.dark a{
@@ -423,14 +433,31 @@ body::-webkit-scrollbar-track {
     .desordenado{
             position: fixed;
             width: 100%;
-            height: 50vh;
-            background: #0c0a0a;
+            height: 20vh;
+            background: rgb(23, 98, 172);
+           
             top: 170px;
             left: 100%;
             text-align: center;
             transition: all 0.5s;
             border-radius: 10px;
+            
         }
+       
+        
+
+        body.dark .desordenado{
+   
+            background: rgb(13, 79, 146);
+            
+                
+        }
+
+        .jmenu a{
+            color:#F1F1F1;
+        }
+
+      
 
        
 

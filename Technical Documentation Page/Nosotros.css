@@ -8,11 +8,14 @@
 .sec-nosotros{
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .part1{
+    width: 100%;
    
+   border:5px solid rgb(47, 88, 165);
     grid-column: 2;
     grid-row: 1;
     justify-self: center;
@@ -22,7 +25,7 @@
 
 .part2{
     
-    grid-column: 1;
+    grid-column: 2;
     
     justify-self: center;
 }
@@ -30,11 +33,26 @@
 @media (max-width:912px) {
 
     .sec-nosotros{
-        text-align: left;
+        text-align: center;
         grid-column: 1;
         grid-row: 2;
+        justify-content: center;
     } 
 
+    .part1{
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 200px;
+        
+    }
+    
+    .part2{
+    
+    grid-column: 2;
+  
+    
+    justify-self: center;
+}
     
     
 
