@@ -11,10 +11,9 @@
 
 body{
     background-color: #090c31;
-    min-height: 100vh;
-   
+    min-height: 100vh; /*Esto es una propiedad para hacer que ocupe el minimo de la altura del body  que seria el 100%*/
     display: grid;
-    place-items: center;
+    place-items: center; /*Propiedad exclusiva del grid sentra horizontal mente y verticalmente*/
 
 }
 
@@ -27,7 +26,7 @@ body{
     padding: 1.5em;
     border-radius:1rem ;
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(4,1fr);/*significa que estás creando una cuadrícula con 4 columnas, y cada columna ocupará una fracción igual del espacio disponible.*/
     gap: .5rem;
 }
 
@@ -60,12 +59,14 @@ body{
 
 #cero{
 
-    grid-column: span 2;
+    grid-column: span 2;/* El elemento se extenderá por 2 columnas */
+    /* Otros estilos para los elementos dentro de la cuadrícula */
 }
 
 #igual{
 
-    grid-row: span 2;
+    grid-row: span 2;/* El elemento se extenderá por 2 filas */
+    /* Otros estilos para los elementos dentro de la cuadrícula */
     background-color:#e6394a ;
 }
 
