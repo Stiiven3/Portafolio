@@ -22,7 +22,7 @@ body{
    text-align: center;
    padding: 20px;
    border-radius: 1rem;
-   box-shadow: 5px 5px #23010a ;
+   box-shadow: 20px 20px #23010a ;
 }
 
 .Box-titulo h1{
@@ -41,7 +41,7 @@ body{
     width: 350px;
     max-width: 100%;
    
-    box-shadow: 10px 10px #23010a;
+    box-shadow: 20px 20px #23010a;
     border-radius: 1rem;
     gap: .5em;
 }
