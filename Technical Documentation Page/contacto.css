@@ -62,3 +62,15 @@ form{
     
 }
 
+@media screen and (max-height:1390px) {
+
+    .div-footer-grid{
+       
+        position: absolute;
+        bottom: -700px;
+        position: relative;
+     
+    }
+    
+}
+
