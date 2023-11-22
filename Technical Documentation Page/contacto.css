@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+.container-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 50px;
+
+    
+   
+}
+
+.box-contacto h1{
+
+    font-size: 3rem;
+   
+}
+
+label{
+
+    font-size: 20px;
+}
+
+input,textarea{
+
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn{
+
+    margin-top: 20px;
+}
+form{
+
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        gap: 10px;
+}
+.box-form{
+    background-color: rgba(245, 245, 220, 0.911);
+    padding: 50px;
+   
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px #000;
+    
+    
+}
+
