@@ -27,7 +27,7 @@ body{
    align-items: center;
 }
 .navegacion ul{
-    font-size: 3rem;
+    font-size: 2rem;
    display: flex;
    gap: 35px;
    list-style: none;
@@ -48,37 +48,128 @@ body{
 
 .container-text h1{
 
-    font-size: 85px;
+    font-size: 45px;
     text-align:center ;
     width: 100%;
-    margin-bottom: 150px;
+   
    
    
     
 }
 .container-btn{
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  justify-content: center;
+   
+}
+.btn-Menu {
+    
+   color: #000;
+   text-align: center;
+   font-size: 2em;
+   width: 40%;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 10px 10px #550303;
+   background-color: #fff;
+  
+  text-decoration: none;
+
+}
+.btn-Menu {
+    
+   color: #000;
+   text-align: center;
+   font-size: 2em;
+   width: 40%;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 10px 10px #550303;
+   background-color: #fff;
+  
+  text-decoration: none;
+
+}
+.btn-Menu {
+    
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #550303;
+    background-color: #fff;
+   
+   text-decoration: none;
+ 
+ }
+.btn-Menu {
+    
+   color: #000;
+   text-align: center;
+   font-size: 2em;
+   width: 40%;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 10px 10px #550303;
+   background-color: #fff;
+  
+  text-decoration: none;
+
 }
 
-.container-text button{
+.btn-Menu:hover {
+  
+    background: #7a1d1d;
+    color: #fff;
+ 
+ }
+ 
+.fa-solid{
 
     font-size: 35px;
-    width: 100%;
-    text-align:center ;
+} 
+
+
+
+.parrafo{
+
+    margin: 20px auto 10px auto;
+    font-size: 2em;
     
-   
 }
 
 .container-image img{
    
     border-radius: 2000px ;
-    box-shadow: 20px 20px 20px 20px #fff ;
-    padding: 50px;
-    width: 1250px;
+    box-shadow: 10px 10px 10px 10px #fff ;
+    padding: 20px;
+    width: 600px;
+
+    animation-name: infiniteupdown;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease ;
+    transition: all .3s;
   
    
+}
+
+
+
+@keyframes infiniteupdown{
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 .container-image{
 
