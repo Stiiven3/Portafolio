@@ -128,7 +128,8 @@ body{
  }
  
 .fa-solid{
-
+    width: 100%;
+    color: #fff;
     font-size: 35px;
 } 
 
