@@ -8,6 +8,7 @@ body{
     width: 100%;
     background: #000;
     color: #fff;
+   
 }
 
 .header{
@@ -192,4 +193,62 @@ justify-content: center;
     flex-direction: column;
 justify-content: center;
 justify-content: center;
+}
+
+
+/*MEDIA QUERYS*/
+
+@media screen and (max-width:924px){
+    
+    
+.container-image img{
+   
+ display:none;
+  
+   
+}
+
+.container-text {
+
+   margin-left: 300px;
+   
+   
+   
+    
+}
+
+.btn-Menu {
+    
+ 
+    width: 60%;
+    
+ 
+ }
+
+}
+
+
+@media screen and (max-width:550px){
+    
+    
+    .container-text {
+    
+       margin-left: 65px;
+        
+    }
+    
+    
+    .container{
+
+        width: 85%;
+        height: 85vh;
+        display: grid;
+        place-content: center;
+        place-items: center;
+    
+        flex-wrap: nowrap;
+        
+    
+    }
+    
 }
