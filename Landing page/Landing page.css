@@ -225,6 +225,13 @@ justify-content: center;
  
  }
 
+ .navegacion ul{
+    font-size: 30px;
+   display: flex;
+   gap: 35px;
+   list-style: none;
+}
+
 }
 
 
@@ -249,6 +256,44 @@ justify-content: center;
         flex-wrap: nowrap;
         
     
+    }
+    
+}
+
+@media screen and (max-width:280px){
+    
+    
+    .container-text h1{
+
+        font-size: 35px;
+        text-align:center ;
+        width: 100%;
+       
+       
+       
+        
+    }
+
+    .btn-Menu {
+    
+ 
+        width: 55%;
+        
+     
+     }
+
+     .navegacion ul{
+        font-size: 25px;
+       display: flex;
+       gap: 35px;
+       list-style: none;
+    }
+
+    .parrafo{
+
+        margin: 20px auto 10px auto;
+        font-size: 1em;
+        
     }
     
 }
