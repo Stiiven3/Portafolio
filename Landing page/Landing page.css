@@ -133,7 +133,12 @@ body{
     font-size: 35px;
 } 
 
+.link-nav{
 
+    text-decoration: none;
+    color: #fff;
+
+}
 
 .parrafo{
 
