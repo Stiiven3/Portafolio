@@ -134,6 +134,8 @@ body{
     font-size: 35px;
 } 
 
+
+
 .link-nav{
 
     text-decoration: none;
@@ -257,6 +259,14 @@ justify-content: center;
         
     
     }
+
+    .fa-solid{
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+    } 
+
+   
     
 }
 
@@ -274,14 +284,14 @@ justify-content: center;
 
     .btn-Menu {
     
-        width: 55%;
+        width: 100%;
 
      }
 
      .navegacion ul{
-        font-size: 25px;
+        font-size: 15px;
        display: flex;
-       gap: 35px;
+       gap: 10px;
        list-style: none;
     }
 
@@ -291,5 +301,38 @@ justify-content: center;
         font-size: 1em;
         
     }
+
+    .container{
+        
+       margin-right:35px;
+        
+    
+    }
+
+ 
+    
+}
+
+
+@media screen and (max-height:658px){
+    
+    
+    .container-image img{
+   
+        border-radius: 2000px ;
+        box-shadow: 10px 10px 10px 10px #fff ;
+        padding: 20px;
+        width: 300px;
+    
+        animation-name: infiniteupdown;
+        animation-duration: 3s ;
+        animation-iteration-count: infinite;
+        animation-timing-function:ease ;
+        transition: all .3s;
+      
+       
+    }
+
+   
     
 }
