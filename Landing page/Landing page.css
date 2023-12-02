@@ -299,10 +299,10 @@ justify-content: center;
 }
 
 form{
-   margin-top: 50px;
+   margin-top: 20px;
     background-color: #2c0d0d;
     border-radius: 80px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
    
@@ -311,8 +311,8 @@ form{
 
 input,textarea{
  background-color: #1c1c1c;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 label{
 
@@ -335,7 +335,13 @@ label{
    
 
 
+/*MENU DESPLEGABLE*/
 
+
+.Desplegable{
+
+   display:  none;
+}
 
 
 /*** 🎈👍Esta parte estoy trabajando con los media querys de mi sitio***🎈👍/
