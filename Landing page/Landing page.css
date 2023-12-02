@@ -336,11 +336,18 @@ label{
 
 
 /*MENU DESPLEGABLE*/
+.Desplegable-btn{
+   
+    grid-column: 2;
+    grid-row: 1;
+    margin: 20px;
+   place-self: end;
+   cursor:pointer;
+   display: none;
+}
 
-
-.Desplegable{
-
-   display:  none;
+#check{
+   display: none;
 }
 
 
@@ -402,6 +409,36 @@ label{
 
 }
 
+/*Media Querys para el menu*/
+
+
+@media  screen and (max-width:912px) {
+    .Desplegable-btn{
+        display: inline-flex;
+    }
+
+        ul{
+            position: fixed;
+            width: 100vw;
+            min-height: 100vh;
+    
+           
+            background: #0c0a0a;
+            top: 74px;
+            left: 100%;
+            text-align: center;
+            transition: all 0.5s;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+
+       
+
+        #check:checked ~ ul{
+            left:0;
+        }
+  
+}
 
 
 /*MEDIA QUERYS*/
