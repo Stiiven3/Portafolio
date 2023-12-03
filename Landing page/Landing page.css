@@ -34,6 +34,19 @@ body{
    list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:active{
+    color: #7a1d1d;
+}
+a:hover{
+    background-color: #050500;
+    padding: 20px;
+}
+
+
 
 .container{
 
