@@ -299,7 +299,7 @@ justify-content: center;
 
 .box-contacto{
 
-    margin-top: px;
+    margin-bottom:50px;
     text-align: center;
     border-bottom: 2px solid #fff;
 }
@@ -309,23 +309,27 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     place-items:center ;
+    background: url("./Imagenes/3cee4e61b3b6b31a0ee84d1bfc88bd17-1000-2234825566.jpg");
    
    
 }
 
 form{
-   margin-top: 20px;
+  
+   margin: 20px 0px 50px 0px;
     background-color: #4e0b0b;
     border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
+    
    
 
 }
 
 input,textarea{
- background-color: #1c1c1c;
+ background-color: #f4f2f2;
+ 
     padding: 5px;
     margin: 5px;
 }
@@ -340,6 +344,10 @@ label{
 .btn{
 
     background-color: #fff;
+}
+.btn:hover{
+
+    background-color: #894949;
 }
 
 .box-contacto{
@@ -367,6 +375,33 @@ label{
 #check{
    display: none;
 }
+
+/*Pie de pagina*/
+footer{
+    width: 100%;
+  background-color:#6b0d0d;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 250px;
+}
+.box-footer{
+
+    margin: 25px 0px;
+}
+.footer-ubicacion{
+
+    margin-right: 200px;
+    
+
+}
+.titulo-footer{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
 
 
 /*** 🎈👍Esta parte estoy trabajando con los media querys de mi sitio***🎈👍/
@@ -427,6 +462,25 @@ label{
 
 }
 
+@media screen and (max-width:1270px){
+
+    footer{
+        width: 100%;
+      background-color:#6b0d0d;  
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+        gap: 80px;
+    }
+    
+    .footer-numero{
+    
+        margin-right: 300px; 
+    }
+}
+
 /*Media Querys para el menu*/
 
 
@@ -471,12 +525,11 @@ label{
    
 }
 
+
 .container-text {
 
    margin-left: 300px;
-   
-   
-   
+    
     
 }
 
