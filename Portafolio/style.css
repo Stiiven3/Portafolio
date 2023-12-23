@@ -108,7 +108,32 @@ span{
 
 .about{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(10,1fr);
     width:100vw;
     align-items: center;
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info{
+
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2{
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider{
+
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 3em;
 }
