@@ -101,5 +101,14 @@ span{
 .main img{
 
     width: 350px;
+    border: 7px solid aqua;
+    height: 520px;
 
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:100vw;
+    align-items: center;
 }
