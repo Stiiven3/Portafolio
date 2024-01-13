@@ -388,6 +388,55 @@ span{
     margin-top: 1em;
 }
 
+#check,.checkbt{
+    display: none;
+}
+
+@media (max-width:940px) {
+    
+    .checkbt{
+        display: block;
+    }
+
+        ul{
+            position: absolute;
+            
+            height: 10vh;
+            background: #0c0a0a;
+            top: 75px;
+            right: 100%;
+            text-align: center;
+            transition: all 0.5s;
+
+            border-radius: 10px;
+        }
+
+        li{
+            margin: 20px 0;
+           
+        }
+
+        a{
+            font-size: 10px;
+        }
+        .menu{
+           
+            width: 100%;
+            
+        }
+
+        .menu a:hover{
+
+            background-color: rgb(237, 239, 239);
+            color: #000;
+            transition: ease-in .4s;
+        }
+       
+
+        #check:checked ~ ul{
+            right:0;
+        }
+}
 
 @media  screen and (max-width:769px) {
 
