@@ -438,7 +438,7 @@ span{
         }
 }
 
-@media  screen and (max-width:769px) {
+@media  screen and (max-width:1024px) {
 
     
    .main{
@@ -462,6 +462,9 @@ span{
 
         display: none;
     }
+    .container-contact {
+        justify-content: center;
+    }
 }
 
 @media  screen and (max-width:500px) {
@@ -476,5 +479,28 @@ span{
         
         grid-column: 1;
        
+  
     }
+
+    .card{
+        font-size: 3px;
+        width: 80%;
+        height: 80vw;
+        margin-bottom: 30px;
+    }
+ }
+
+ @media  screen and (max-height:900px) {
+
+  
+    .container-contact img{
+        
+        display: none;
+       
+  
+    }
+    .container-contact {
+        justify-content: center;
+    }
+
  }
