@@ -141,6 +141,10 @@ span{
 
     margin-bottom: 1em;
 }
+.about img{
+
+    box-shadow: 0px 0px 1px  #000;
+}
 
 .portafolio{
     background-color: #191c32;
@@ -454,6 +458,7 @@ span{
    .main img{
     width: 250px;
     height: 250px;
+    margin-top: 25px;
    
     
 }
