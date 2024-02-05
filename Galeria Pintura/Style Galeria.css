@@ -134,3 +134,41 @@ h1::before{
 
     content: '🎨';
 }
+
+
+img{
+
+    box-shadow:3px #e29797;
+    
+    
+    
+}
+.G-IMG{
+   
+    border-radius: 5px;
+    
+}
+
+.context{
+
+    display: none;
+    transition: all 6s;
+}
+
+.G-IMG:hover{
+
+   
+    
+    .context{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    
+  
+ }
+
