@@ -23,7 +23,7 @@ h1{
     font-weight: 300;
     font-size: 2em;
     grid-row: 0;
-    justify-self: end;
+
 }
 body.dark h1{
    
